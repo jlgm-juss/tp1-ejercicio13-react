@@ -10,3 +10,6 @@ José Luis Gómez Marigliano
 
 ### API utilizada
 https://openweathermap.org/
+
+### Otros Recursos
+https://tobiasahlin.com/spinkit/
