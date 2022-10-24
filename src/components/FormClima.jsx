@@ -58,7 +58,7 @@ const FormClima = () => {
               <Col sm={12} md={5}>
                 <Form.Control
                   type="text"
-                  placeholder="Ej: San Miguel de Tucuman"
+                  placeholder="Ej: Buenos Aires"
                   onChange={(e) => setUbicacion(e.target.value)}
                   value={ubicacion}
                   required
