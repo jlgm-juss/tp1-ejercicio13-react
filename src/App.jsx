@@ -5,7 +5,7 @@ import FormClima from "./components/FormClima";
 function App() {
   return (
     <div>
-      <h1 className="text-center p-3 bg-warning">Clima</h1>
+      <h1 className="text-center p-3 bg-secondary">Clima</h1>
       <Container className="my-4">
         <FormClima></FormClima>
       </Container>

@@ -40,7 +40,7 @@ const FormClima = () => {
       setMostrarSpinner(false)
     } catch (error) {
       setMostrarSpinner(false)
-      alert("ubicacion no encotrada");
+      alert("no se encontró la ubicación");
     }
   };
 
@@ -53,7 +53,7 @@ const FormClima = () => {
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Row>
               <Col sm={12} md={5}>
-                <Form.Label>Ingrese un pais, ciudad, estado...</Form.Label>
+                <Form.Label>Ingrese los datos de un país o ciudad</Form.Label>
               </Col>
               <Col sm={12} md={5}>
                 <Form.Control
@@ -65,7 +65,7 @@ const FormClima = () => {
                 />
               </Col>
               <Col sm={12} md={2}>
-                <Button variant="primary" type="submit">
+                <Button variant="dark" type="submit">
                   Enviar
                 </Button>
               </Col>
